@@ -1,4 +1,4 @@
-This directory scripts for inserting the traffic violations data into a Sqlite database for SQL querying. The actual file database is over the GitHub file size limit of 100 MB, but can be downloaded [here](http://s3.amazonaws.com/dwalk/phila_open_data/phila_traffic.db).  
+This directory scripts for inserting the traffic violations data into a Sqlite database for SQL querying. The actual file database is over the GitHub file size limit of 100 MB, but can be downloaded [here](http://s3.amazonaws.com/dwalk/phila_open_data/phila_traffic.db). The MD5 sum of the database is `4de6ccd693c101f9c29b5ff7ded1e`.
 
 ### Requirements
 * [Sqlite](https://sqlite.org)  
