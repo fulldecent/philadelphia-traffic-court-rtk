@@ -25,7 +25,7 @@ Year      |   Citations
 2011      | 108,098
 2012      | 166,805
 2013      | 155,208
-2014 (incomplete)      | 155,209
+2014 (incomplete)      | 74,333
 
 The original file was provided to me by CD-ROM on December 18, 2014. It was a single Excel XLSX file172,875,037 bytes with SHA-256 hash 515ccf0aebe60a8319b0ef9c2392204a43da71aa5f14913eaf49051c98dc4c4e. Because this file is cumbersome (e.g. LibreOffice is unable to open it) I have sliced it into separate tab-separated-value files using IBM's SPSS software. No other modifications have been made. For consideration to people "cloning" this project, the original file is not included in this repository but is available by request.
 
