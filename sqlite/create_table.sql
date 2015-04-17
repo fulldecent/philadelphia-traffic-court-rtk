@@ -3,7 +3,7 @@ DROP TABLE IF EXISTS violations;
 CREATE TABLE violations (
     citation_id TEXT PRIMARY KEY,
     filed_date DATE,
-    issue_date DATE,
+    issue_date DATE NOT NULL,
     violation_code TEXT NOT NULL,
     violation_title TEXT NOT NULL,
     violation_location TEXT NOT NULL,
