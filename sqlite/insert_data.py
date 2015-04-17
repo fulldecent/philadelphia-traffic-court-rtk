@@ -5,7 +5,7 @@ import time
 import sqlite3
 from datetime import datetime
 
-DATABASE_NAME = 'phila_traffic.db'
+DATABASE_NAME = 'phila_traffic2.db'
 DATE_FORMAT = '%m/%d/%Y'
 DATETIME_FORMAT = '%m/%d/%Y %I:%M%p'
 
@@ -60,7 +60,8 @@ for file in files:
                                 v[6], v[7], v[8], v[9], v[10], v[11], defendent_dob, \
                                 v[13], v[14], v[15], v[16], disposition_date, v[18], \
                                 v[19], v[20], v[21], v[22], v[23], h_dt))
-                except sqlite3.IntegrityError:
+                except sqlite3.IntegrityError as err:
+                    print err
                     pass
 
                 i = i + 1
