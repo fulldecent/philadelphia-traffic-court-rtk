@@ -25,7 +25,7 @@ def convert_datetime(datetime_str):
     except:
         return None
 
-files = glob.glob('../../citations*.tsv')
+files = glob.glob('../citations*.tsv')
 
 for file in files:
     filename = os.path.basename(file)
