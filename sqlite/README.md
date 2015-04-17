@@ -1,4 +1,4 @@
-This directory scripts for inserting the traffic violations data into a Sqlite database for SQL querying. The actual file database is over the GitHub file size limit of 100 MB, but can be downloaded [here](http://s3.amazonaws.com/dwalk/phila_open_data/phila_traffic.db). The MD5 sum of the database is `4de6ccd693c101f9c29b5ff7ded1e`.
+This directory scripts for inserting the traffic violations data into a Sqlite database for SQL querying. The actual file database is over the GitHub file size limit of 100 MB, but can be downloaded [here](http://s3.amazonaws.com/dwalk/phila_open_data/phila_traffic.db). The MD5 sum of the database is `fb1e6ec24107b8ed6b0c17e5c814d9c7`.
 
 ### Requirements
 * [Sqlite](https://sqlite.org)  
@@ -24,7 +24,7 @@ To populate another database besides the one included here:
 |----------------------|-------------|-------------|
 | citation_id          | TEXT        | PRIMARY KEY |
 | filed_date           | DATE        |             |
-| issue_date           | DATE        |             |
+| issue_date           | DATE        | NOT NULL    |
 | violation_code       | TEXT        | NOT NULL    |
 | violation_title      | TEXT        | NOT NULL    |
 | violation_location   | TEXT        | NOT NULL    |
@@ -63,6 +63,4 @@ Record counts by year
 | 2011 | 108098    |
 | 2012 | 166805    |
 | 2013 | 155208    |
-| 2014 | 0         |
-
-2014 citations were not imported because of the `PRIMARY KEY` contraint on the `citation_id` column. From spot-checking these records from the `citations2014partial.tsv` file they are appear to be duplicates of the 2013 records.
+| 2014 | 74332     |
