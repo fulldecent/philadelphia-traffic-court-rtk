@@ -6,9 +6,7 @@ This project is the result of a Pennsylvania Right-to-Know request filed with th
 Background
 ----------
 
-Philadelphia Traffic Court made national headlines throughout 2014 as its offices were raided by the FBI and 
-
-9 current and former judges face indictments[1] on 77 counts. The behavior at issue is ticket-fixing, where a favorable ruling is traded to judges for payment or other consideration. As a result, the Pennsylvania state legislature voted to dissolve[2] the court.
+Philadelphia Traffic Court made national headlines throughout 2014 as its offices were raided by the FBI and 9 current and former judges face indictments[1] on 77 counts. The behavior at issue is ticket-fixing, where a favorable ruling is traded to judges for payment or other consideration. As a result, the Pennsylvania state legislature voted to dissolve[2] the court.
 
 The Data
 --------
